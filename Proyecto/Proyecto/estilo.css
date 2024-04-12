@@ -1,0 +1,302 @@
+body{
+  background-color: #FEF8E1;
+  color: #eff7ff;
+  font-family: sans-serif;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+
+.cuadrado{
+  width: 1890px;           /* Ancho de 150 píxeles */
+  height: 180px;          /* Alto de 150 píxeles */
+  background: rgb(255, 255, 255);        /* Fondo de color rojo */
+  border: 1px solid #000000; /* Borde color negro y de 1 píxel de grosor */
+}
+
+header{
+  display: flex;
+  height: 90px;
+  background-color: #9E7E4E;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+
+.Logo{
+  display: flex;
+  align-items: center;
+}
+
+.Logo img{ 
+  height: 80px;
+}
+
+.name{
+  position: absolute;
+  left: 80px;
+  top: -18px;
+}
+
+.sct{
+  position: relative;
+}
+
+.div-ctg{
+  position: absolute;
+  background-color: #fff;
+  height: 500px;
+  width: 300px;
+  top: 60px;
+  border-radius: 30px;
+  box-shadow: 6px 6px 0px #969696,
+              -3px -3px 10px #ffffff;
+}
+
+.div-ctg h2{
+  position: absolute;
+  top: 280px;
+  color: #000;
+}
+
+.div-ctg button{
+  position: absolute;
+  left: 48px;
+  top: 380px;
+  height: 60px;
+  width: 200px;
+  border-radius: 20px;
+  border-color: #9E7E4E;
+  background: #9E7E4E;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.div-ctg button:hover{
+  box-shadow: 6px 6px 0px #969696,
+              -3px -3px 10px #ffffff;
+}
+
+.div-ctg button:active {
+  transition: .2s;
+  transform: translateX(0em) translateY(0em);
+  box-shadow: none;
+}
+
+.div-ctg img{
+  position: absolute;
+  border-radius: 20px;
+  top: 40px;
+  left: 30px;
+  height: auto;
+  width: 240px;
+}
+
+#div-1{
+  left: 80px;
+  display: block;
+}
+
+#div-2{
+  left: 440px;
+  display: block;
+}
+
+#div-3{
+  left: 800px;
+  display: block;
+}
+
+#div-4{
+  left: 1160px;
+  display: block;
+}
+
+#div-5{
+  left: 90px;
+  top: 50px;
+  display: block;
+}
+
+#div-6{
+  left: 610px;
+  top: 50px;
+  display: block;
+}
+
+#div-7{
+  left: 1150px;
+  top: 50px;
+  display: block;
+}
+
+#div-8{
+  left: 90px;
+  top: 240px;
+  display: block;
+}
+
+#div-9{
+  left: 610px;
+  top: 240px;
+  display: block;
+}
+
+#div-10{
+  left: 1150px;
+  top: 240px;
+  display: block;
+}
+
+#div-11{
+  left: 90px;
+  top: 430px;
+  display: block;
+}
+
+#div-12{
+  left: 610px;
+  top: 430px;
+  display: block;
+}
+
+#div-13{
+  left: 1150px;
+  top: 430px;
+  display: block;
+}
+
+.pp{
+  display: none;
+}
+
+.bebidasg{
+  display: none;
+}
+
+.comidasg{
+  display: block;
+}
+
+.mekatog{
+  display: none;
+}
+
+.refrigeriog{
+  display: none;
+}
+
+.div-b{
+  position: absolute;
+  background-color: #F5B07E;
+  height: 140px;
+  width: 310px;
+  top: 60px;
+  border-radius: 30px;
+  box-shadow: 6px 6px 0px #969696,
+              -3px -3px 10px #ffffff;
+}
+
+.div-b img{
+  position: absolute;
+  width: 80px;
+  height: auto;
+  top: 50px;
+  left: 30px;
+}
+
+hr{
+  position: absolute;
+  height:100%;
+  width:.2vw;
+  border-width:0;
+  background-color:#000;
+  top: -15px;
+  left: 250px;
+}
+
+#ir{
+  position: absolute;
+  height: 140px;
+  width: 50px;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  left: 256px;
+  cursor: pointer;
+}
+
+.text-card{
+  font-size: 20px;
+  color: #000;
+  position: absolute;
+  left: 60px;
+}
+
+.precio{
+  font-size: 40px;
+  color: #000;
+  position: absolute;
+  top: 30px;
+  left: 120px;
+}
+
+.div-m{
+  position: absolute;
+  background-color: #898481;
+  height: 140px;
+  width: 310px;
+  top: 60px;
+  border-radius: 30px;
+  box-shadow: 6px 6px 0px #969696,
+              -3px -3px 10px #ffffff;
+}
+
+.div-m img{
+  position: absolute;
+  width: 80px;
+  height: auto;
+  top: 50px;
+  left: 30px;
+}
+
+.div-mk{
+  position: absolute;
+  background-color: #d85858;
+  height: 140px;
+  width: 310px;
+  top: 60px;
+  border-radius: 30px;
+  box-shadow: 6px 6px 0px #969696,
+              -3px -3px 10px #ffffff;
+}
+
+.div-mk img{
+  position: absolute;
+  width: 80px;
+  height: auto;
+  top: 50px;
+  left: 30px;
+}
+
+.div-r{
+  position: absolute;
+  background-color: #92dc83;
+  height: 140px;
+  width: 310px;
+  top: 60px;
+  border-radius: 30px;
+  box-shadow: 6px 6px 0px #969696,
+              -3px -3px 10px #ffffff;
+}
+
+.div-r img{
+  position: absolute;
+  width: 80px;
+  height: auto;
+  top: 50px;
+  left: 30px;
+}

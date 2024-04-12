@@ -1,0 +1,155 @@
+body {
+    background-color: #FEF8E1;
+    color: #000000;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+header{
+    display: flex;
+    height: 160px;
+    background-color: #FEF8E1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 160px;
+}
+
+.Logo img{ 
+    height: 120px;
+    margin-left: 280px;
+}
+
+#hp{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#hs{
+    margin-top: 80px;
+}
+
+.s1{
+    position: relative;
+}
+
+#rg{
+    height: 549px;
+    width: 1536px;
+    margin-right: 40px;
+    flex-shrink: 0;
+    border-top-left-radius: 200px;
+    background: #9E7E4E;
+    position: absolute;
+}
+
+#logindiv{
+    position: relative;
+    margin-top: 60px;
+    margin-left: 500px;
+}
+
+legend{
+    position: relative;
+    font-weight: bold;
+}
+
+.l-img{
+    position: absolute;
+    width: auto;
+    height: 40px;
+    left: 110px;
+    top: -2px;
+}
+
+.img-div{
+    position: absolute;
+}
+
+#niña{
+    height: 540px;
+}
+
+#flores{
+    height: auto;
+    width: 400px;
+    left: 1130px;
+    top: -20px;
+}
+
+#libros{
+    height: auto;
+    width: 490px;
+    left: 1020px;
+    top: 160px;
+}
+
+.form {
+    position: absolute;
+    height: 300px;
+    width: 350px;
+    left: 50px;
+    top: -50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #9E7E4E;
+    padding: 2.5em;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+
+}
+  
+.input {
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    background-color: #f6f2e3;
+    height: 40px;
+}
+  
+.input:hover {
+    box-shadow: 6px 6px 0px #969696,
+               -3px -3px 10px #ffffff;
+}
+  
+.input:focus {
+    background: #ffffff;
+    box-shadow: inset 2px 5px 10px rgb(158, 126, 78);
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+  
+.form .btn {
+    margin-top: 2em;
+    align-self: center;
+    padding: 0.7em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    
+}
+
+.form .btn:hover {
+    box-shadow: 6px 6px 0px #969696,
+               -3px -3px 10px #ffffff;
+
+}
+  
+.form .btn:active {
+    transition: .2s;
+    transform: translateX(0em) translateY(0em);
+    box-shadow: none;
+}
